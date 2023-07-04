@@ -1,0 +1,23 @@
+{
+  "name": "my-new-project",
+  "type": "module",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^8.10.4",
+    "@wdio/cli": "^8.3.8",
+    "@wdio/local-runner": "^8.3.8",
+    "@wdio/mocha-framework": "^8.3.0",
+    "@wdio/spec-reporter": "^8.3.0",
+    "allure-commandline": "^2.22.1",
+    "chromedriver": "^114",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5",
+    "wdio-chromedriver-service": "^8.1.1"
+  },
+  "scripts": {
+    "debug": "wdio wdio.conf.ts --suite debug",
+    "e2e": "wdio wdio.conf.ts --suite e2e"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
